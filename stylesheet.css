@@ -1,0 +1,330 @@
+html{background-color: #4C5E2C;
+    color: antiquewhite;
+}
+
+body{
+    font-family: 'Unna', serif;
+}
+
+.navigation-bar{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    font-size: 18pt;
+}
+
+li{
+    display: inline;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+a:hover{
+    background-color: #FDCF4E;
+    color: #4C5E2C !important ;
+}
+
+a:visited{
+    color: #FDCF4E;
+}
+
+a:active{
+    color: darkred;
+}
+
+.top{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1{
+    font-size: 100pt;
+    margin-bottom: 0%;
+}
+
+.intro{
+    font-size: 16pt;
+}
+
+#section-1{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h2{
+    font-size: 24pt;
+    font-style: italic;
+    margin-top: 20%;
+    width: 1600px;
+    margin-bottom: 0%;
+}
+
+#section-2{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.character-set{
+    font-size: 70pt;
+}
+
+
+.pothos{
+    font-size: 200pt;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    margin-left: 10%;
+}
+
+.flf{
+    font-size: 50pt;
+    font-style: italic;
+    margin-right: 15%;
+    float: right;
+}
+
+.monstera{
+    font-size: 120pt;
+    font-weight: bold;
+    float: left;
+    margin: 5%;
+    margin-top: 5%;
+    color: #FDCF4E;
+}
+
+.philo{
+    font-size: 70pt;
+    font-weight: bold;
+    margin-right: 10%;
+    margin-top: 30%;
+    margin-left: 50%;
+}
+
+#section-3{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.first{
+    font-size: 20pt;
+    width: 700px;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.second{
+    font-size: 24pt;
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+    width: 1200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    color: #FDCF4E;
+}
+
+.third{
+    font-size: 16pt;
+    font-style: italic;
+    text-align: left;
+    width: 400px;
+    margin-bottom: 5%;
+
+}
+
+.fourth{
+    font-size: 16pt;
+    font-weight: bold;
+    line-height: 3;
+    width: 700px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 500px);
+    grid-template-rows: repeat(2, 500px);
+    gap: 6rem;
+    height: 1000px;
+    width: auto;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+#section-4{
+ margin-left: 100px;
+ margin-right: 100px;
+}
+
+.one{
+    border-style: solid;
+    border-color: antiquewhite;
+    border-width: 2px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 24pt;
+    height: 450px;
+    width: 450px;
+    grid-column: 2 / span 1;
+}
+
+.community{
+    font-size: 48pt;
+    color: #FDCF4E;
+    text-align: center;
+}
+
+.plant-swap{
+    width: 70%;
+    margin-top: -10%;
+}
+
+.date{
+    display: block;
+}
+
+.class{
+    display: block;
+}
+
+.time{
+    display: block;
+}
+
+
+
+.two{
+    border-style: solid;
+    border-color: antiquewhite;
+    border-width: 2px;
+    height: 450px;
+    width: 450px;
+    grid-column: 3 / span 1;
+    font-size: 24pt;
+    text-align: center;
+}
+
+.gardens{
+    font-size: 36pt;
+    font-style: italic;
+    margin-bottom: -5%;
+    margin-top: 15%;
+    line-height: 0%;
+}
+
+.invitation{
+    line-height: 0%;
+    font-weight: bold;
+}
+
+.Q{
+    font-size: 48pt;
+    color: #FDCF4E;
+    font-style: italic;
+    font-weight: bold;
+    line-height: normal;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+.date-two{
+    font-weight: bold;
+    line-height: normal;
+}
+
+.three{
+    border-style: solid;
+    border-color: antiquewhite;
+    border-width: 2px;
+    height: 450px;
+    width: 450px;
+    grid-column: 2 / span 1;
+    grid-row: 2;
+}
+
+.vertical-line{
+    width: 1px;
+    background-color: antiquewhite;
+    height: 400px;
+    float: left;
+    color: #4C5E2C;
+    margin-right: 4%;
+    margin-top: 2%;
+}
+
+.workshop{
+    font-size: 48pt;
+    color: #FDCF4E;
+    text-align: left;
+    line-height: normal;
+    margin-bottom: -2%;
+    margin-top: 0%;
+}
+
+.date-three{
+    font-size: 20pt;
+    text-align: left;
+    font-weight: bold;
+    line-height: normal;
+    
+}
+
+.beginners{
+    font-size: 30pt;
+    font-style: italic;
+    text-align: left;
+    margin-top: 25%;
+
+}
+
+.four{
+    border-style: solid;
+    border-color: antiquewhite;
+    border-width: 2px;
+    height: 450px;
+    width: 450px;
+    grid-column: 3 / span 1;
+    grid-row: 2;
+}
+
+.date-four{
+    font-size: 36pt;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 5%;
+}
+
+.last-box{
+    width: 70%;
+    margin-bottom: 25%;
+}
+
+.bliss{
+    text-align: right;
+    font-size: 36pt;
+    color: #FDCF4E;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 0%;
+    margin-right: 10%;
+}
+
+.explore{
+    text-align: right;
+    font-size: 20pt;
+    margin: 0%;
+    margin-right: 10%;
+}
+
+
+.location-time{
+    text-align: right;
+    font-size: 20pt;
+    margin-right: 10%;
+}
